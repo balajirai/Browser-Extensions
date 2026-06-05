@@ -1,0 +1,47 @@
+* {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+body {
+    min-height: 150px;
+    min-width: 300px;
+    background-color: #1B1F23;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    text-align: center;
+    font-family: Rajdhani;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+h1{
+    font-weight: 500;
+    font-size: large;
+    color: aliceblue;
+    background-color: rgb(16, 37, 54);
+    padding: 10px;
+    margin: 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(11, 255, 2);
+    /* border-radius: 5px; */
+    /* border: 0.5px solid black; */
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+}
+
+#noteInput{
+    background-color: #1B1F23;
+    border: 0.5px solid white;
+}

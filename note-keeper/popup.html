@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Include Tailwind CSS directly from CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&family=Rajdhani:wght@300;400&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Note Keeper</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Note Keeper</h1>
+        <input type="text" id="noteInput" class="w-full p-2 mb-2 text-white" placeholder="Add a note...">
+        <button id="addNote" class="bg-blue-500 text-white p-1 px-2 rounded">Add Note</button>
+        <ul id="noteList" class="mt-4"></ul>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
